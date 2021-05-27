@@ -1,0 +1,182 @@
+
+/* import font from fonts.css file */
+@import url(./fonts.css);
+
+/* css varibles */
+@import url(./partials/_variables.css);
+
+.header_area .cstm-top-nav{
+    background-color: var(--secondry-color1);
+    padding: 0.5rem 0.2rem;
+    font-weight: 500;
+    
+}
+.header_area .cstm-topnav-color{
+    color: var(--primary-color1);
+}
+
+.header_area .navbar .navbar-nav .nav-item .nav-link{
+    color: whitesmoke;
+}
+
+/* MAIN NAV STYLE */
+.header_area .navbar .container .navbar-brand h3{
+    font-family: var(--roboto);
+    font-weight: 700;
+    color: var(--primary-color1);
+}
+
+.header_area .navbar .container .navbar-brand h3 span{
+    color: var(--primary-color2);
+}
+.header_area .cstm-main_nav {
+    background-color: rgb(255, 255, 255);
+    padding: 2rem 20rem;
+}
+
+.header_area .cstm-main_nav form .cstm-dropdown{
+    border: 1.5px solid var(--primary-color2);
+    border-radius: 4px;
+}
+
+.header_area .cstm-main_nav form input{
+    margin: 0 0.5rem;
+    border: 1.5px solid var(--primary-color2);
+}
+
+.header_area .cstm-main_nav form button{
+    border: 1.5px solid var(--primary-color2);
+
+}
+.cstm-searchbar{
+    text-align: start;
+    width: 500px;
+}
+
+.header_area .cstm-main_nav .container ul{
+    margin-left: 5rem;
+}
+
+
+/* banner area style */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,200&display=swap');
+/* *{
+  margin:0;
+  padding:0;
+  box-sizing:border-box;
+} */
+/* body {
+  background: #eee;
+  min-height: 100vh;
+  width:100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-family: 'Poppins', sans-serif;
+}   */
+#carousel .carousel-item.boat{
+  background-image:url("../img/banner/banner-1.jpg");
+}
+#carousel .carousel-item.sea{
+  background-image:url("../img/banner/banner-2.jpg");
+}
+#carousel .carousel-item.river{
+  background-image:url("../img/banner/banner-3.jpg");
+}
+#carousel .carousel-item{
+  height:100vh;
+  width:100%;
+  min-height:350px;
+  background:no-repeat center center scroll;
+  background-size:cover;
+}
+#carousel .carousel-inner .carousel-item{
+  transition:-webkit-transform 2s ease;
+  transition:transform 2s ease;
+  transition:transform 2s ease, -webkit-transform 2s ease;
+}
+#carousel .carousel-item .caption{
+  background:rgba(0,0,0,0.5);
+  padding:40px;
+  color:white;
+  animation-duration: 1s;
+  animation-delay: 2s;
+}
+#carousel .caption h2{
+  animation-duration: 1s;
+  animation-delay: 2s;
+}
+
+#carousel .caption .cstm-banner-title{
+    color: var(--primary-color2);
+    font-weight: bold;
+    font-size: 4rem;
+    animation-duration: 1s;
+    animation-delay: 2.2s;
+}
+
+
+#carousel .caption a{
+  animation-duration: 1s;
+  animation-delay: 2.4s;
+}
+.delicious-btn{
+  display: inline-block;
+  min-width:160px;
+  height:60px;
+  color:#fff;
+  border:none;
+  /* border-left:3px solid #1c8314; */
+  border-radius: 0;
+  padding:0 30px;
+  font-size:16px;
+  line-height:58px;
+  font-weight:600;
+  -webkit-transition-duration: 500ms;
+  transition-duration: 500ms;
+  text-transform: capitalize;
+  border: 2px solid var(--primary-color2);
+  border-radius: 4px;
+  background:transparent;
+}
+.delicious-btn:hover,
+.delicious-btn:active,
+.delicious-btn:focus{
+  font-size:16px;
+  font-weight: 600;
+  color:#fff;
+  background:#1c8314;
+  border-color:#40ba37
+}
+
+
+/* product banner */
+.container .cstm-product-cards{
+  padding: 6rem 0;
+}
+
+/* product banner section */
+
+.cstm-product-banner h2,
+.cstm-product-item-list h2{
+  text-align: center;
+  font-size: 24px;
+  font-weight: 600 !important;
+  color: var(--basic-color1) !important;
+}
+
+.cstm-product-item-list h4{
+  text-align: center;
+  font-size: 20px;
+  color: var(--basic-color1) !important;
+}
+
+
+footer{
+  background:var(--secondry-color1);
+}
+
+footer h3{
+  padding: 2rem 0;
+  color: var(--primary-color1);
+}
