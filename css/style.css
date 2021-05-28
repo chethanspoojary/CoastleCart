@@ -5,6 +5,40 @@
 /* css varibles */
 @import url(./partials/_variables.css);
 
+/*============ Global Styles ===========*/
+.mybtnprime1{
+  border-radius: 7px;
+  color: #fff;
+  background-color: var(--primary-color1);
+}
+
+.mybtnprime2{
+  border-radius: 7px;
+  color: #fff;
+  background-color: var(--primary-color2);
+}
+
+.mybtnprime1:hover{
+  background-color: #fff;
+  border: none;
+  outline: 2px solid var(--primary-color1);
+  color: var(--basic-color1);
+}
+
+
+.mybtnprime2:hover{
+  background-color: #fff;
+  border: none;
+  outline: 2px solid var(--primary-color2);
+  color: var(--basic-color1);
+}
+
+.mycurser{
+  cursor:pointer
+}
+
+/*============ Global Styles ===========*/
+
 .header_area .cstm-top-nav{
     background-color: var(--secondry-color1);
     padding: 0.5rem 0.2rem;
@@ -155,14 +189,35 @@
   padding: 6rem 0;
 }
 
+.container .cstm-product-cards img {
+  box-shadow: var(--box-shadow);
+}
+
+
 /* product banner section */
 
 .cstm-product-banner h2,
 .cstm-product-item-list h2{
   text-align: center;
-  font-size: 24px;
+  font-size: 28px;
   font-weight: 600 !important;
   color: var(--basic-color1) !important;
+
+}
+
+
+
+
+.cstm-product-banner h2::before,
+.cstm-product-banner h2::after,
+.cstm-product-item-list h2::before,
+.cstm-product-item-list h2::after{
+    content: "";
+    height: 2px;
+    width: 8vw;
+    background-color: var(--primary-color1);
+    display:inline-block;
+    margin:7px 10px;
 }
 
 .cstm-product-item-list h4{
@@ -179,4 +234,16 @@ footer{
 footer h3{
   padding: 2rem 0;
   color: var(--primary-color1);
+}
+
+.cstm-products{
+  box-shadow: none;
+  background-color: transparent;
+  padding: 0.0rem 0 0.8rem 0;
+  margin: 2rem 0;
+}
+
+.cstm-products:hover{
+  box-shadow: var(--box-shadow);
+  margin: 1rem;
 }

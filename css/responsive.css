@@ -74,4 +74,8 @@
     .header_area .cstm-main_nav .container ul{
         margin-left:0.2rem !important;
     }
+
+    #cstm-extra-product-banner{
+        display: none;
+    }
 }
